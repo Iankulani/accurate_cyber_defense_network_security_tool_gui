@@ -4,17 +4,17 @@ The Accurate Cyber Defense Network Security Tool (GUI) is an advanced Python-bas
 
 his tool provides a comprehensive graphical interface for monitoring IP addresses, identifying malicious activities such as DoS/DDoS attacks, port scanning, and suspicious traffic patterns, and visualizing security data through interactive charts.
 
-**Key Features**
+## Key Features
 
 ✅ Real-Time Threat Detection – Monitors live network traffic to detect:
 
-SYN Floods (DoS)
+* SYN Floods (DoS)
 
-UDP Floods (DDoS)
+* UDP Floods (DDoS)
 
-ICMP Ping Floods
+* ICMP Ping Floods
 
-Port Scanning Attempts
+* Port Scanning Attempts
 
 📊 Interactive Dashboard – Displays security metrics in real time, including:
 
@@ -42,15 +42,9 @@ JSON (structured monitoring data)
 
 TXT (security alerts and logs)
 
-🎨 Customizable UI – Switch between themes:
 
-Purple (default)
 
-Green
-
-Black
-
-**Use Cases**
+## Use Cases
 
 Network administrators monitoring suspicious traffic
 
@@ -65,14 +59,16 @@ Packet sniffing & analysis (real-time detection)
 
 Multithreading for non-blocking UI
 
-🔗 **Installation & Usage:**
-
-**Clone the repository**
-
+## Clone the repository**
+```bash
 git clone https://github.com/Iankulani/accurate_cyber_defense_network_security_tool_gui.git
+```
 
 Install dependencies (pip install -r requirements.txt)
 
-Run python accurate_cyber_defense_network_security_tool_gui.py
+## How to Run
+```bash
+python accurate_cyber_defense_network_security_tool_gui.py
+```
 
 This tool is designed for real-world cybersecurity monitoring, not simulations, making it ideal for professionals and researchers. Contributions and feature requests are welcome!
